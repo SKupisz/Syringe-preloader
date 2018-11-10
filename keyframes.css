@@ -3,22 +3,22 @@
     width: 0%;
   }
   100%{
-    width: 54%;
+    width: 49%;
   }
 }
 @keyframes top_move{
+  0%{
+    left: 0%;
+  }
+  100%{
+    left: 7%;
+  }
+}
+@keyframes press_move{
   0%{
     left: 5%;
   }
   100%{
     left: 12%;
-  }
-}
-@keyframes press_move{
-  0%{
-    left: 8%;
-  }
-  100%{
-    left: 15%;
   }
 }
